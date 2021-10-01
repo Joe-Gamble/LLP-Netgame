@@ -1,0 +1,65 @@
+{
+  "Number_Of_Weapons" : 4,
+  "Weapons" : [
+    {
+      "name" : "Wand",
+      "sprite":
+      {
+        "filename" : "testbackground.jpg",
+        "size_x" : 20,
+        "size_y" : 20
+      },
+      "stats" :
+      {
+        "base_damage" : 20,
+        "range" : 2,
+        "price" : 100
+      }
+    },
+    {
+      "name" : "Stick",
+      "sprite":
+      {
+        "filename" : "Stick_Weapon.png",
+        "size_x" : 20,
+        "size_y" : 20
+      },
+      "stats" :
+      {
+        "base_damage" : 100,
+        "range" : 2,
+        "price" : 100
+      }
+    },
+    {
+      "name" : "BroadSword",
+      "sprite":
+      {
+        "filename" : "testbackground.jpg",
+        "size_x" : 20,
+        "size_y" : 20
+      },
+      "stats" :
+      {
+        "base_damage" : 20,
+        "range" : 2,
+        "price" : 100
+      }
+    },
+    {
+      "name" : "Gun",
+      "sprite":
+      {
+        "filename" : "testbackground.jpg",
+        "size_x" : 20,
+        "size_y" : 20
+      },
+      "stats" :
+      {
+        "base_damage" : 20,
+        "range" : 2,
+        "price" : 100
+      }
+    }
+  ]
+}

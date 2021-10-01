@@ -1,0 +1,279 @@
+{
+"Game":
+  {
+  "Num Of States": 4,
+  "States": [
+    {
+      "State ID": 0,
+      "Num Of Elements" : 0
+    },
+    {
+      "State ID": 1,
+      "Num Of Elements" : 0
+    },
+    {
+      "State ID": 2,
+      "Num Of Elements" : 3,
+      "Elements" :
+      [
+        {
+          "Name": "btn_lobby",
+          "UIType": "UIStChangeBtn",
+          "Type Custom Data":
+          {
+            "Data 1": ["GS_LOBBY",3],
+            "Data 2": ["NULL",0],
+            "UIProperties":
+            {
+              "X": 520,
+              "Y": 350,
+              "W": 192,
+              "H": 64,
+              "File Path": "data/CustomUI/Button_Lobby.png"
+            }
+          }
+        },
+        {
+          "Name": "btn_option",
+          "UIType": "UIButton",
+          "Type Custom Data":
+          {
+            "Data 1": ["GF_OPTIONS",1],
+            "Data 2": ["NULL",1],
+            "UIProperties":
+            {
+              "X": 520,
+              "Y": 450,
+              "W": 192,
+              "H": 64,
+              "File Path": "data/CustomUI/Button_Options.png"
+            }
+          }
+        },
+        {
+          "Name": "btn_quit",
+          "UIType": "UIStChangeBtn",
+          "Type Custom Data":
+          {
+            "Data 1": ["GF_QUIT",2],
+            "Data 2": ["NULL",0],
+            "UIProperties":
+            {
+              "X": 520,
+              "Y": 550,
+              "W": 192,
+              "H": 64,
+              "File Path": "data/CustomUI/Button_Quit.png"
+            }
+          }
+        }
+  ]
+    },
+
+    {
+      "State ID": 3,
+      "Num Of Elements" : 11,
+      "Elements" :
+      [
+        {
+        "Name": "btn_back",
+        "UIType": "UIStChangeBtn",
+        "Type Custom Data":
+        {
+          "Data 1": ["GS_MENU",2],
+          "Data 2": ["NULL",0],
+          "UIProperties":
+          {
+            "X": 40,
+            "Y": 60,
+            "W": 50,
+            "H": 50,
+            "File Path": "data/CustomUI/Back_arrow.png"
+          }
+        }
+      },
+        {
+          "Name": "btn_join_lobby",
+          "UIType": "UIButton",
+          "Type Custom Data":
+          {
+            "Data 1": ["GF_JOIN_LOBBY",10],
+            "Data 2": ["NULL",0],
+            "UIProperties":
+            {
+              "X": 950,
+              "Y": 60,
+              "W": 120,
+              "H": 40,
+              "File Path": "data/CustomUI/LobbyUI/Join_lobby.png"
+            }
+          }
+        },
+        {
+          "Name": "btn_create_lobby",
+          "UIType": "UIButton",
+          "Type Custom Data":
+          {
+            "Data 1": ["GF_CREATE_LOBBY",11],
+            "Data 2": ["NULL",0],
+            "UIProperties":
+            {
+              "X": 950,
+              "Y": 120,
+              "W": 120,
+              "H": 40,
+              "File Path": "data/CustomUI/LobbyUI/Create_lobby.png"
+            }
+          }
+        },
+        {
+          "Name": "btn_get_lobby",
+          "UIType": "UIButton",
+          "Type Custom Data":
+          {
+            "Data 1": ["GF_GET_LOBBIES",14],
+            "Data 2": ["NULL",0],
+            "UIProperties":
+            {
+              "X": 950,
+              "Y": 180,
+              "W": 120,
+              "H": 40,
+              "File Path": "data/CustomUI/LobbyUI/Find_lobbies.png"
+            }
+          }
+        },
+        {
+          "Name": "btn_set_lobby_name",
+          "UIType": "UIButton",
+          "Type Custom Data":
+          {
+            "Data 1": ["GF_SET_LOBBY_NAME",12],
+            "Data 2": ["NULL",0],
+            "UIProperties":
+            {
+              "X": 950,
+              "Y": 240,
+              "W": 120,
+              "H": 40,
+              "File Path": "data/CustomUI/LobbyUI/Set_lobby_name.png"
+            }
+          }
+        },
+        {
+          "Name": "btn_send_message",
+          "UIType": "UIButton",
+          "Type Custom Data":
+          {
+            "Data 1": ["GF_SEND_MESSAGE",13],
+            "Data 2": ["NULL",0],
+            "UIProperties":
+            {
+              "X": 950,
+              "Y": 300,
+              "W": 120,
+              "H": 40,
+              "File Path": "data/CustomUI/LobbyUI/send_message.png"
+            }
+          }
+        },
+        {
+          "Name": "btn_ready",
+          "UIType": "UIButton",
+          "Type Custom Data":
+          {
+            "Data 1": ["GF_READY",15],
+            "Data 2": ["NULL",0],
+            "UIProperties":
+            {
+              "X": 950,
+              "Y": 360,
+              "W": 120,
+              "H": 40,
+              "File Path": "data/CustomUI/LobbyUI/ready.png"
+            }
+          }
+        },
+        {
+          "Name": "btn_unready",
+          "UIType": "UIButton",
+          "Type Custom Data":
+          {
+            "Data 1": ["GF_UNREADY",16],
+            "Data 2": ["NULL",0],
+            "UIProperties":
+            {
+              "X": 950,
+              "Y": 420,
+              "W": 120,
+              "H": 40,
+              "File Path": "data/CustomUI/LobbyUI/un_ready.png"
+            }
+          }
+        },
+        {
+          "Name": "btn_close_lobby",
+          "UIType": "UIButton",
+          "Type Custom Data":
+          {
+            "Data 1": ["GF_CLOSE_LOBBY",17],
+            "Data 2": ["NULL",0],
+            "UIProperties":
+            {
+              "X": 950,
+              "Y": 480,
+              "W": 120,
+              "H": 40,
+              "File Path": "data/CustomUI/LobbyUI/close_lobby.png"
+            }
+          }
+        },
+        {
+          "Name": "btn_open_lobby",
+          "UIType": "UIButton",
+          "Type Custom Data":
+          {
+            "Data 1": ["GF_OPEN_LOBBY",18],
+            "Data 2": ["NULL",0],
+            "UIProperties":
+            {
+              "X": 950,
+              "Y": 540,
+              "W": 120,
+              "H": 40,
+              "File Path": "data/CustomUI/LobbyUI/Open_lobby.png"
+            }
+          }
+        },
+        {
+          "Name": "btn_kick_player",
+          "UIType": "UIButton",
+          "Type Custom Data":
+          {
+            "Data 1": ["GF_KICK_PLAYER",19],
+            "Data 2": ["NULL",0],
+            "UIProperties":
+            {
+              "X": 950,
+              "Y": 600,
+              "W": 120,
+              "H": 40,
+              "File Path": "data/CustomUI/LobbyUI/Kick_player.png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "State ID": 4,
+      "Num Of Elements" : 0,
+      "Elements" : []
+    },
+    {
+      "State ID": 5,
+      "Num Of Elements" : 0,
+      "Elements" : []
+    }
+    ]
+  }
+}

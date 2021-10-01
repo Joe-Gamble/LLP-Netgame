@@ -1,0 +1,53 @@
+{
+  "Number_Of_Utility" : 3,
+  "Utility" : [
+    {
+      "name" : "Basic_Heal",
+      "utility_type" : 0,
+      "sprite":
+      {
+        "filename" : "/Sprites/health_potion.png",
+        "size_x" : 20,
+        "size_y" : 20
+      },
+      "stats" :
+      {
+        "heal_amount" : 50,
+        "range" : 2,
+        "price" : 100
+      }
+    },
+    {
+      "name" : "Basic_Shield",
+      "utility_type" : 1,
+      "sprite":
+      {
+        "filename" : "/Sprites/shield.png",
+        "size_x" : 20,
+        "size_y" : 20
+      },
+      "stats" :
+      {
+        "uses" : 2,
+        "range" : 0,
+        "price" : 100
+      }
+    },
+    {
+      "name" : "Mark",
+      "utility_type" : 2,
+      "sprite":
+      {
+        "filename" : "testbackground.jpg",
+        "size_x" : 20,
+        "size_y" : 20
+      },
+      "stats" :
+      {
+        "multiplier" : 0.5,
+        "range" : 4,
+        "price" : 50
+      }
+    }
+  ]
+}

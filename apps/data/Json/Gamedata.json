@@ -1,0 +1,209 @@
+{
+  "Game":
+  {
+    "width" : 1280,
+    "height" : 720,
+    "NumberOfScenes": 3,
+    "Scenes":
+    [
+      {
+        "name": "MainMenu",
+        "background" :
+        {
+          "sprite" : "testbackground.jpg",
+          "size" :
+          {
+            "size_x" : 1280,
+            "size_y" : 720
+          }
+        },
+        "type": 0,
+        "NumberOfObjects": 1,
+
+        "Objects":
+                [
+                  {
+                    "type": 1,
+                    "filename": "testbackground.jpg",
+                    "name" : "Test Object",
+                    "sprite":
+                    {
+                      "x": 100, "y": 100, "z": 100,
+
+                      "width" : 20,
+                      "height" : 20
+                    }
+                  }
+                ]
+      },
+      {
+        "name": "Map",
+        "background" :
+        {
+          "sprite" : "testbackground.jpg",
+          "size" :
+          {
+            "size_x" : 1280,
+            "size_y" : 720
+          }
+        },
+        "type": 2,
+        "NumberOfObjects": 0,
+
+        "map_params" :
+        {
+          "NumberOfLocations" : 3,
+          "locations" : [
+            {
+              "x" : 20, "y" : 100,
+              "scene": 0
+            },
+            {
+              "x" : 120, "y" : 100,
+              "scene": 0
+            },
+            {
+              "x" : 220, "y" : 100,
+              "scene": 2
+            }
+          ]
+        }
+      },
+      {
+        "name": "Dungeon_1",
+        "background" :
+        {
+          "sprite" : "dungeon.png",
+          "size" :
+          {
+            "size_x" : 1040,
+            "size_y" : 480
+          }
+        },
+        "type": 1,
+        "NumberOfObjects": 0,
+        "Objects":
+        [
+          {
+          }
+        ],
+
+        "dungeon_params":
+        {
+          "difficulty" : 1,
+          "grid_info":
+          {
+            "d_x": 1040, "d_y": 480, "d_z": 100,
+            "start_pos_x" : 0, "start_pos_y" : 480,
+            "x_tiles": 6, "y_tiles": 3
+          },
+          "dungeon_details" :
+          {
+            "NumberOfEnemies" : 2,
+            "enemies" : [
+              {
+                  "type" : 0,
+                  "tile_start" : 0
+              },
+              {
+                  "type" : 1,
+                  "tile_start" : 1
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "Players" : {
+      "NumberOfPlayers" : 2,
+      "screen_sprites" :
+      {
+        "NumberOfSprites" : 3,
+        "sprites": [
+          {
+            "filename": "board.png",
+            "name": "Target_Info_Board",
+            "sprite":
+            {
+              "x": 1040, "y": 480, "z": 0,
+
+              "width": 240,
+              "height": 240
+            }
+          },
+          {
+            "filename": "player_wall.png",
+            "name" : "Target_Backdrop",
+            "sprite":
+            {
+              "x": 1040, "y": 0, "z": 0,
+
+              "width" : 240,
+              "height" : 480
+            }
+          },
+          {
+            "filename" : "inventory_back.png",
+            "name" : "inventory_backsplash",
+            "sprite":
+            {
+              "x" : 240, "y" : 480, "z" : 0,
+              "width" :  800, "height" :  240
+            }
+          }
+        ]
+      },
+      "player_data" :[
+        {
+          "inventory":
+          {
+            "pos" :
+            {
+              "x" : 240, "y" : 480, "z" : 0
+            },
+            "slots":
+            {
+              "rows" : 8,
+              "size" : 80,
+              "slot_sprite" : "slot.png"
+            },
+            "bag":
+            {
+              "level" : 1
+            }
+          },
+          "sprite":
+          {
+            "filename": "slot.png",
+            "name" : "player"
+          }
+        },
+        {
+          "inventory":
+          {
+            "pos" :
+            {
+              "x" : 240, "y" : 480, "z" : 0
+            },
+            "slots":
+            {
+              "rows" : 8,
+              "size" : 80,
+              "slot_sprite" : "slot.png"
+            },
+            "bag":
+            {
+              "level" : 1
+            }
+          },
+          "sprite":
+          {
+            "filename": "slot.png",
+            "name" : "player"
+          }
+        }
+      ]
+    }
+  }
+}
+

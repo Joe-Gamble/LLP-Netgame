@@ -1,0 +1,27 @@
+GAMBLE CODE SAMPLES
+
+Game footage: https://www.youtube.com/watch?v=pnZJJ27s6e4&t
+
+All files in this directory are my complete work and were written to fuinction within the Awesome Sauce Game Engine.
+
+
+Best files to look at:
+
+- Mathematics/Tools, Examples of different constructors and operators
+
+Utility/Vector.hpp & Vector.cpp
+Utility/Rect.hpp & Rect.cpp
+Utility/TileComponent.hpp & TileComponent.cpp
+
+- Polymorphism, casting, memory management
+
+Utility/ObjectPooler.hpp & Utility/ObjectPooler.cpp
+Managers/SceneManager.hpp & Managers/SceneManager.cpp
+Managers/GameManager.hpp & Managers/GameManager.cpp
+Player/Entity.hpp & Player/Entity.cpp
+
+Gameplay Features, Data Serialisation, 
+
+Handlers/TurnHandler.cpp
+Handlers/EnemyHandler.cpp & Handlers/UtilityHandler.cpp
+Scenes/DungeonScene

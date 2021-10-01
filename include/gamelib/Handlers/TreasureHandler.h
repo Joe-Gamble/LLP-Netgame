@@ -1,0 +1,8 @@
+//
+// Created by joemi on 27/04/2020.
+//
+
+#ifndef MYNETGAME_TREASUREHANDLER_H
+#define MYNETGAME_TREASUREHANDLER_H
+
+#endif  // MYNETGAME_TREASUREHANDLER_H
